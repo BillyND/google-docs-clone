@@ -1,4 +1,5 @@
 import React from "react";
+import Editor from "./editor";
 
 interface DocumentIdProps {
   params: {
@@ -10,11 +11,13 @@ const DocumentsIdPage = ({ params }: DocumentIdProps) => {
   const { documentId } = params;
   const isNewDocument = documentId === "new";
 
-  if (isNewDocument) {
-    return <div>New Document</div>;
-  }
+  return (
+    <div className="flex flex-col ">
+      {isNewDocument ? <div>New Document</div> : <>Document id: {documentId}</>}
 
-  return <div>Document ID page: {documentId}</div>;
+      <Editor />
+    </div>
+  );
 };
 
 export default DocumentsIdPage;
