@@ -1,33 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Google Docs Mini
+
+This is a project that clones Google Docs, providing basic functionalities such as login, registration, file listing, and file editing.
 
 ## Getting Started
 
-First, run the development server:
+To get started, you need to set up and run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Install the dependencies:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+This project follows the structure and usage similar to a standard Next.js application. You can start editing the page by modifying the `app/page.tsx` file. The page will auto-update as you edit the file.
+
+## Key Features
+
+- **Realtime Editor**: Allows multiple users to edit documents simultaneously.
+- **Comment & Tag User**: Users can add comments and tag others in the document.
+
+## Contributing
+
+We welcome contributions from the community! If you would like to contribute to this project, please follow these steps:
+
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature`.
+3. Make your changes and commit: `git commit -m 'Add some feature'`.
+4. Push your branch to the repository: `git push origin my-feature`.
+5. Open a Pull Request for us to review.
+
+## Contact
+
+If you have any questions, please reach out to me via email: [nduclong6201@gmail.com](mailto:nduclong6201@gmail.com).
+
+## Resources
+
+To learn more about Next.js, check out the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive tutorial on Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are always welcome!
 
 ## Deploy on Vercel
 
